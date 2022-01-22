@@ -1,0 +1,50 @@
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(34, 255, 189);
+    font-size: 30px;
+  }
+  
+  button {
+    background-color: #1058f3;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    font-size: larger;
+  }
+  
+  .user-list {
+    background: linear-gradient(to right, #fa0dfa, #f80faa);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .user-container {
+    background: rgb(124, 255, 18);
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+  }
+  
+  .user-avatar {
+    border-radius: 70%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .user-name {
+    font-size: 15px;
+  
+    color: rgb(0, 0, 0);
+  }
+  
